@@ -11,7 +11,7 @@ export default function Home() {
     <Feature />
     <Category />
     
-    <div className={styles.content}>
+    <div className={styles.container}>
       <Card />
       <Menu />
     </div>
