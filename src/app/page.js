@@ -9,9 +9,8 @@ export default function Home() {
   return (
   <div className={styles.container}>
     <Feature />
-    <Category />
-    
-    <div className={styles.container}>
+    <Category /> 
+    <div className={styles.content}>
       <Card />
       <Menu />
     </div>
