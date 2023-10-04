@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import React from 'react'
 import styles from "./menuCategories.module.css"
 
 const MenuCategories = () => {
@@ -8,19 +7,19 @@ const MenuCategories = () => {
     <Link href="/blog?cat=style" className={`${styles.categoriesItem} ${styles.style}`}>Style
     </Link>
 
-    <Link href="/" className={`${styles.categoriesItem} ${styles.travel}`}>Travel
+    <Link href="/blog" className={`${styles.categoriesItem} ${styles.travel}`}>Travel
     </Link>
 
-    <Link href="/" className={`${styles.categoriesItem} ${styles.food}`}>Food
+    <Link href="/blog" className={`${styles.categoriesItem} ${styles.food}`}>Food
     </Link>
 
-    <Link href="/" className={`${styles.categoriesItem} ${styles.culture}`}>Culture
+    <Link href="/blog" className={`${styles.categoriesItem} ${styles.culture}`}>Culture
     </Link>
 
-    <Link href="/" className={`${styles.categoriesItem} ${styles.coding}`}>Coding
+    <Link href="/blog" className={`${styles.categoriesItem} ${styles.coding}`}>Coding
     </Link>
 
-    <Link href="/" className={`${styles.categoriesItem} ${styles.fashion}`}>Fashion
+    <Link href="/blog" className={`${styles.categoriesItem} ${styles.fashion}`}>Fashion
     </Link>
     {/* </div> */}
 

@@ -7,9 +7,11 @@ const MenuPost = ({withImage}) => {
   return (
     <div className={styles.items}>
         <Link href="/" className={styles.item}>
-        { withImage && ( <div className={styles.imageContainer}>
+        { withImage && ( 
+        <div className={styles.imageContainer}>
             <Image src="/gran.jpg" alt="gran" fill className={styles.image} />
-          </div>)}
+          </div>
+          )}
           <div className={styles.textContainer}>
             <span className={`${styles.category} ${styles.travel}`}>Travel</span>
             <h3 className={styles.postTitle}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
@@ -21,9 +23,11 @@ const MenuPost = ({withImage}) => {
         </Link>
 
         <Link href="/" className={styles.item}>
-        { withImage && ( <div className={styles.imageContainer}>
+        { withImage && ( 
+        <div className={styles.imageContainer}>
             <Image src="/gran.jpg" alt="gran" fill className={styles.image} />
-          </div>)}
+          </div>
+          )}
           <div className={styles.textContainer}>
             <span className={`${styles.category} ${styles.culture}`}>Culture</span>
             <h3 className={styles.postTitle}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
@@ -35,9 +39,11 @@ const MenuPost = ({withImage}) => {
         </Link>
 
         <Link href="/" className={styles.item}>
-        { withImage && ( <div className={styles.imageContainer}>
+        { withImage && ( 
+        <div className={styles.imageContainer}>
             <Image src="/gran.jpg" alt="gran" fill className={styles.image} />
-          </div>)}
+          </div>
+          )}
           <div className={styles.textContainer}>
             <span className={`${styles.category} ${styles.food}`}>Food</span>
             <h3 className={styles.postTitle}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
@@ -49,9 +55,11 @@ const MenuPost = ({withImage}) => {
         </Link>
 
         <Link href="/" className={styles.item}>
-          { withImage && ( <div className={styles.imageContainer}>
+          { withImage && ( 
+          <div className={styles.imageContainer}>
             <Image src="/gran.jpg" alt="gran" fill className={styles.image} />
-          </div>)}
+          </div>
+          )}
           <div className={styles.textContainer}>
             <span className={`${styles.category} ${styles.fashion}`}>Fashion</span>
             <h3 className={styles.postTitle}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>

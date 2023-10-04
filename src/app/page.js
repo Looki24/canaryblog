@@ -3,7 +3,7 @@ import styles from './homepage.module.css'
 import Feature from '@/components/feature/Feature'
 import Category from '@/components/category/Category'
 import Card from '@/components/card/Card'
-import Link from 'next/link'
+// import Link from 'next/link'
 
 export default function Home() {
   return (

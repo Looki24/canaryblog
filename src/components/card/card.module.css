@@ -1,11 +1,11 @@
-/* .container {
+.container {
     flex: 5;
 }
 
 .title {
     margin: 50px 0px;
-} */
-
+}
+/* 
 .container {
     margin-bottom: 50px;
     display: flex;
@@ -55,4 +55,4 @@
     .imageContainer {
         display: none;
     }
-}
+} */

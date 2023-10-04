@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './card.module.css'
 import Pagination from '../pagination/Pagination';
 import MyCard from '../myCard/MyCard';
-import Menu from '../menu/Menu';
+// import Menu from '../menu/Menu';
 
 const Card = () => {
   return (
@@ -14,7 +14,6 @@ const Card = () => {
         <MyCard />
         <MyCard />
       </div>
-    
       <Pagination />
     </div>
   )
